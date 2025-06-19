@@ -4,7 +4,8 @@ build-backend = 'flit_core.buildapi'
 
 [project]
 name = 'aiida-quantumespresso'
-dynamic = ['version']
+#dynamic = ['version']
+version = '4.10.1'
 description = 'The official AiiDA plugin for Quantum ESPRESSO'
 authors = [{name = 'The AiiDA team', email = 'developers@aiida.net'}]
 readme = 'README.md'
