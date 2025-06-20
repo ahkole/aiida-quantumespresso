@@ -29,4 +29,4 @@ protocols:
             pw:
                 parameters:
                     CONTROL:
-                        forc_conv_thr: 1e-05
+                        forc_conv_thr: 1.e-5
