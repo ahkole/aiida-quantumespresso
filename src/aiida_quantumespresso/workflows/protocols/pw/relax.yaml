@@ -23,3 +23,10 @@ protocols:
     fast:
         description: 'Protocol to perform a relaxation at low precision at minimal computational cost for testing purposes.'
         volume_convergence: 0.05
+    NbSe2_CrCl3:
+        description: 'Protocol for NbSe2-CrCl3 project'
+        base:
+            pw:
+                parameters:
+                    CONTROL:
+                        forc_conv_thr: 1e-05

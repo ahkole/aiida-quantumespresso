@@ -57,3 +57,15 @@ protocols:
                     forc_conv_thr: 1.e-3
                 SYSTEM:
                     degauss: 0.0275
+    NbSe2_CrCl3:
+        description: 'Protocol for calculations for the NbSe2-CrCl3 project.'
+        pseudo_family: 'PseudoDojo/0.4/revPBE/FR/standard/upf/withcutoffs/CrClNbSe'
+        meta_parameters:
+            conv_thr_per_atom: 0.1e-9
+            etot_conv_thr_per_atom: 0.5e-5
+        pw:
+            parameters:
+                SYSTEM:
+                    smearing: 'fermi-dirac'
+                    degauss: 0.00073
+                    input_dft: 'vdW-DF'

@@ -27,3 +27,5 @@ protocols:
     fast:
         description: 'Protocol to perform a band structure calculation at low precision at minimal computational cost for testing purposes.'
         bands_kpoints_distance: 0.1
+    NbSe2_CrCl3:
+        description: 'Protocol for NbSe2-CrCl3 project'
